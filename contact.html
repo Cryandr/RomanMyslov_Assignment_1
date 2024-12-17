@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width , initial-scale=1">
+	<title>Student Shop</title>
+</head>
+
+<body>
+	<header> <!-- header bar that is going to appear at the top of the screen -->
+		<a href="index.html">
+			<div class="logo"><img src="resources/images/logo.svg" alt="UCLan logo"> </div>
+        </a>
+
+		<nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
+			
+			
+			<div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+			
+			<ul class="myNav">
+				<li class="navList"><a href="index.html">Home</a></li>
+                <li class="navList"><a href="products.html">Products</a></li>
+                <li class="navList"><a href="cart.html">Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Your Form</h1>
+	<div class="form-container">
+        <form action="index1.html">
+            <label for="name">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required />
+			
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required />
+			
+			<label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." required />
+			
+			<label for="stid">Student ID</label>
+			<input type="text" id="stid" name="studentid" placeholder="Your Student ID" required />
+			
+			<label for="modul">Register to moduls</label>
+			<h5>CO1111 - The Computing Challenge<input type="checkbox" name="comchallenge" value="CO1111" required /></h5>
+			<h5>CO1301 - Games Concepts<input type="checkbox" name="gamesconcepts" value="CO1301"></h5>
+			<h5>CO1507 - Introudction to Networking<input type="checkbox" name="intronetworking" value="CO1507"></h5>
+			<h5>CO1605 - System Analysis and Database Design<input type="checkbox" name="Databsaedesign" value="CO1605"></h5>
+			<h5>CO1508 - Computer Systems and Security<input type="checkbox" name="security" value="CO1508"></h5>
+			<h5>CO1706 - Interactive Applications<input type="checkbox" name="interapps" value="CO1706"></h5>
+			<br />
+			<label for="country">Country</label>
+			<select id="country" name="country" required>
+				<option value="">--select--</option>
+				<option value="australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="cyprus">Cyprus</option>
+				<option value="czech">Czech Republic</option>
+				<option value="norway">Norway</option>
+				<option value="russia">Russia</option>
+				<option value="uk">UK</option>
+				<option value="usa">USA</option>
+			</select>
+			
+			<br />
+			<br />
+			
+            
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write about yourself.." style="height:150px"></textarea>
+			
+			<label for="gender">Gender</label>
+			<select id="gender" name="gender" required>
+				<option value="">--select--</option>
+				<option value="australia">Female</option>
+				<option value="australia">Male</option>
+			</select>
+			
+			<h4>Over 18: <input type="checkbox" name="over18" required /></h4>
+			
+            <input type="submit" value="Submit">
+			<input type="reset" value="Remove">
+			<br />
+			<br />
+        </form>
+    </div>
+	
+	<footer>
+	
+	<div class="footer-content">
+		<div class="footer-category">
+			<h3>Links</h3>
+			<ul>
+				<li> <a href="https://www.anthology.com/learn-ultra">Blackboard Learn Ultra</a></li>
+				<li> <a href="https://www.google.com/">Google</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-category">
+			<h3>Contact</h3>
+			<ul>
+				<li> <a href="ROMyslov@uclan.ac.uk">Email Us</a></li>
+				<li> <a href="Tel: +44 699 321 212">Call Us</a></li>
+				<li> <a href="contact.html">Contact Form</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-category">
+			<h3>Location</h3>
+			<ul>
+				<li>University Ave 12-14, Pyla 7080</li>
+				<li>Opening hours: Monday - Saturday; 7 am - 8 pm</li>
+				
+			</ul>
+		</div>
+	</footer>
+	
+	<script>
+
+        function toggleMenu() {
+            var nav = document.querySelector('.myNav');
+            nav.classList.toggle('active'); 
+        }
+    </script>
+	
+</body>
+
+</html>

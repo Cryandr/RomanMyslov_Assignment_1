@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width , initial-scale=1">
+	<title>Student Shop</title>
+</head>
+
+<body>
+	<header> <!-- header bar that is going to appear at the top of the screen -->
+		<a href="index.html">
+			<div class="logo"><img src="resources/images/logo.svg" alt="UCLan logo"> </div>
+        </a>
+
+		<nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
+			
+			
+			<div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+			
+			<ul class="myNav">
+				<li class="navList"><a href="index.html">Home</a></li>
+                <li class="navList"><a href="products.html">Products</a></li>
+                <li class="navList"><a href="cart.html">Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!-- The flexible grid (content)! --> 
+
+	<div class="container">
+		<h1>Where opportunity creates success</h1>
+		
+		<p>Every student at University of Central Lancashire is automatically a member of the Students' Union. We're here to make life better for students - inspiring you to succed and achieve you goals. Everything you need to know about UCLan Students' Union. Your membership starts here:</p>
+		
+		<h2>Together</h2>
+
+	<video width="720" height="540" controls>
+		<source src="resources/video/video.mp4" type="video/mp4">
+	<!--Your browser does not support the video tag.-->
+	</video>
+	<h2>Join our global community!</h2>
+	
+	<iframe width="720" height="480"
+		src="https://www.youtube.com/embed/EI_lco-qdw8">
+	</iframe>
+	
+		</br>
+	<footer>
+	
+	<div class="footer-content">
+		<div class="footer-category">
+			<h3>Links</h3>
+			<ul>
+				<li> <a href="https://www.anthology.com/learn-ultra">Blackboard Learn Ultra</a></li>
+				<li> <a href="https://www.google.com/">Google</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-category">
+			<h3>Contact</h3>
+			<ul>
+				<li> <a href="ROMyslov@uclan.ac.uk">Email Us</a></li>
+				<li> <a href="Tel: +44 699 321 212">Call Us</a></li>
+				<li> <a href="contact.html">Contact Form</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-category">
+			<h3>Location</h3>
+			<ul>
+				<li>University Ave 12-14, Pyla 7080</li>
+				<li>Opening hours: Monday - Saturday; 7 am - 8 pm</li>
+				
+			</ul>
+		</div>
+	</footer>
+	
+		<script src="minimenu.js"></script>
+		
+		
+	
+</body>
+
+</html>
