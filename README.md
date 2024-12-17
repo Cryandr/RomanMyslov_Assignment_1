@@ -16,7 +16,7 @@ This is the work for assignment 1 for CO1418 Web Technologies
 
 ## Description
 
-This website allows the customer to view the firm's range of products and services, view photographs or images of the products, and view pricing information for the products. Customers can shop online using a variety of computers and devices, including desktops, laptops, tablets and smartphones as well.
+This website allows the customer to view the firm's range of products and services, view photographs or images of the products, and view pricing information for the products. Customers can shop online using a variety of computers and devices, including desktops and laptops as well.
 
 1. Home (index.html)
  
@@ -42,7 +42,7 @@ You can go to the product page only by clicking on the more details button. User
 
 ## Known Bugs
 
-* _Website design is not adaptive for very small device screens (e.g. smartwatch)._
+* _Website design is not adaptive for very small device screens (e.g. smartphones and smartwatch)._
 
 ___________________________________
 Copyright (c) 2024 Roman Myslov
